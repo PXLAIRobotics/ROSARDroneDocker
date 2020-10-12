@@ -19,6 +19,7 @@ if [ $vendor == "NVIDIA" ]; then
         --name ar_drone \
         --hostname ar_drone \
         --device /dev/snd \
+        --env="DISPLAY" \
         --env="QT_X11_NO_MITSHM=1" \
         --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
         -v `pwd`/../Commands/bin:/home/user/bin \
