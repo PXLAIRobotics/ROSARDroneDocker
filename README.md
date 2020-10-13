@@ -16,6 +16,11 @@ The following script will run the AR.Drone container:
  $ ./002_run_ardrone_container.sh 
 ```
 
+To attach a `bash` shell to the container execute:
+```bash
+ $ ./003_attach_bash_to_ardrone_container.sh
+```
+
 ## Gazebo worlds
 There are several Gazebo worlds included:
 
