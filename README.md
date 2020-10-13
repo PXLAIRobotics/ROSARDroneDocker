@@ -13,7 +13,7 @@ It will check if there's an active Nvidia OpenGL driver or not and will build al
 
 The following script will run the AR.Drone container:
 ```bash
- $ 002_run_ardrone_container.sh 
+ $ ./002_run_ardrone_container.sh 
 ```
 
 ## Gazebo worlds
@@ -26,7 +26,7 @@ The standard test world:
 
 Glasshouse
 ```bash
- $ $roslaunch pxl_drones_week glasshouse.launch
+ $ roslaunch pxl_drones_week glasshouse.launch
 ```
 
 ## Parrot control packages
