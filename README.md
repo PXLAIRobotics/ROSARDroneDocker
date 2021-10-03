@@ -6,7 +6,7 @@ This repository contains multiple Dockerfiles and a few bash scripts to create a
 
 The script to build all images is:
 ```bash
- $ ./0001_build_images.sh
+ $ ./001_build_images.sh
 ```
 It will check if there's an active Nvidia OpenGL driver or not and will build all the necessary images.
 
